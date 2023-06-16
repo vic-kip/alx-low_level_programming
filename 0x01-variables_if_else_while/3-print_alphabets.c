@@ -12,12 +12,12 @@ int main(void)
 
 	x = 'a';
 	y = 'A';
-	while 
+	while
 		(x <= 'z') {
 			putchar(x);
 			x++;
 		}
-	while 
+	while
 		(y <= 'Z') {
 			putchar (y);
 			y++;
