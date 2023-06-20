@@ -8,15 +8,22 @@
  */
 int main(void)
 {
-	int x, sum = 0;
-
-	for (x = 0; x < 1024; x++)
+	Int I =0;
+	long j =1, k= 2;
+	while (I < 50)
 	{
-		if ((x % 3) == 0 || (x % 5) == 0)
-			sum += x;
+		if (I == 0)
+		printf("%ld", j);
+	else if (i == 1)
+		printf("%ld", k);
+	else
+	{
+		k += j;
+		j = k-j;
+		printf(",%ld",k);
 	}
-
-	printf("%d\n", sum);
-
-	return (0);
+		++i;
+	}
+		printf("\n");
+		return (0);
 }
