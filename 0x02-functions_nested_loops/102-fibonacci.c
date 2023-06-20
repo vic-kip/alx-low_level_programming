@@ -6,22 +6,22 @@
  */
 int main(void)
 {
-	int x;
-	unsigned long int a, v, next, sum;
+	int i;
+	unsigned long int j, k, next, sum;
 
-	a = 1;
-	v = 2;
+	j = 1;
+	k = 2;
 	sum = 0;
 
-	for (x = 1; x <= 33; ++x)
+	for (i = 1; i <= 33; ++i)
 	{
-		if (a < 4000000 && (a % 2) == 0)
+		if (j < 4000000 && (j % 2) == 0)
 		{
-			sum = sum + a;
+			sum = sum + j;
 		}
-		next = a + v;
-		a = v;
-		v = next;
+		next = j + k;
+		j = k;
+		k = next;
 	}
 
 	printf("%lu\n", sum);
