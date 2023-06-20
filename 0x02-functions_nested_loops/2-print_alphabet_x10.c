@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - the first while is to create the 10 line and lowercase
+ * print_alphabet_x10 - printing the alphabet 10 times
  * followed by a new line
  */
 void print_alphabet_x10(void)
