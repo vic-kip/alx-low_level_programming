@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	Int I =0;
+	int I =0;
 	long j =1, k= 2;
 	while (I < 50)
 	{
