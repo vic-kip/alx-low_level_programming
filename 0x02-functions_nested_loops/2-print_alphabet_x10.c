@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 -  the first while is to create the 10 lines while the nested while is to print a-z lowercase
+ * print_alphabet_x10 -  the first while is to create the 10 lineand in lowercase
  * followed by a new line
  */
 void print_alphabet_x10(void)
@@ -23,4 +23,3 @@ void print_alphabet_x10(void)
 		i++;
 	}
 }
-
