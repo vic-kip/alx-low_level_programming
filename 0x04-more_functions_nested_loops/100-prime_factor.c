@@ -20,7 +20,7 @@ int main(void)
 		x /= 2;
 	}
 
-	for (i = 3; i <= sqrt(n); i = i + 2)
+	for (i = 3; i <= sqrt(x); i = i + 2)
 	{
 		while (x % i == 0)
 		{
