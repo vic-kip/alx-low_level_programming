@@ -13,7 +13,6 @@ void puts2(char *s)
 	int x;
 
 	while (*b != '\0')
-		
 	{
 		b++;
 		longi++;
