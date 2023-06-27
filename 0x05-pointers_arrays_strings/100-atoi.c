@@ -38,5 +38,5 @@ int _atoi(char *s)
 			mult /= 10;
 		}
 	}
-	return(num);
+	return (num);
 }
