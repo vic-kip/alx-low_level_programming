@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include  <ctype.h>
 /**
- * main - Print the sum of two numbers
+ * main - Print the sum of two positive numbers
  * @argc: Count arguments
  * @argv: Arguments
  * Return: Always 0 (Success)
