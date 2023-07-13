@@ -4,7 +4,7 @@
 /**
  * *array_range - its supposed to create an array of integers
  * @min:the minimum range of values to be stored
- * @max: the maximum range of values stored and also the number of elements stored
+ * @max: the maximum range of values stored and also the number of elements
  * Return: it returns a pointer to the new array, if fails returns NUll
  */
 int *array_range(int min, int max)
