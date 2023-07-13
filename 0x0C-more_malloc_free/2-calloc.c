@@ -11,24 +11,24 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	unsigned int totalSize;
-	void *ptr;
+	unsigned int f;
+	void *x;
 
 	if (nmemb == 0 || size == 0)
 	{
 	return (NULL);
 	}
 
-	totalSize = nmemb * size;
+	f = nmemb * size;
 
-	ptr = malloc(totalSize);
+	x = malloc(f);
 
-	if (ptr == NULL)
+	if (x == NULL)
 	{
 	return (NULL);
 	}
 
-	memset(ptr, 0, totalSize);
+	memset(x, 0, f);
 
-	return (ptr);
+	return (x);
 }
