@@ -2,7 +2,7 @@
 #include <stddef.h>
 /**
  * int_index - returns the index of the first element
- * @array - an array
+ * @array: an array
  * @size: the number of elements in the array
  * @cmp: a pointer to the function to be used to compare values
  * Return: 0,no element matches, return -1
