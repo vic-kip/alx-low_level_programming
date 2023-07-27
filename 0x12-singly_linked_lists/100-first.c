@@ -3,7 +3,7 @@
 void x(void) __attribute__ ((constructor));
 
 /**
- * first - prints sentence then main func executes
+ * x - prints sentence then main func executes
  */
 void x(void)
 {
